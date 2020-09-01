@@ -20,7 +20,7 @@ export default function About() {
         },
         {
             question: 'How do I work?',
-            answer: `I always listen to the clients’ business problems and its proposed solutions firsts. If I come across a light bulb while doing my project, I suggest it to them on how I can improve their solutions.
+            answer: `I always listen to the clients’ business problems and its proposed solutions first. If I come across a light bulb while doing my project, I suggest it to them on how I can improve their solutions.
             `
         }
     ]
