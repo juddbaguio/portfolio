@@ -5,6 +5,7 @@ import cardStyles from '../components/card.module.css';
 import {motion} from 'framer-motion';
 import Header from '../components/Header';
 import {useRouter} from 'next/router';
+import Head from 'next/head';
 
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
@@ -39,6 +40,10 @@ export default function About() {
 
     return(
         <>
+        <Head>
+            <title>About Me</title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
         <Header path={router.pathname} />
         <div className={styles.container}>
             <div style={{width: '90%', margin: '0 auto'}}>
