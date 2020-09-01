@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    max-width: 318px;
+    border-radius: 45px;
+    border: 1px solid #006F68;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.question {
+    position: relative;
+    width: 100%;
+    padding: 21px 18px;
+    border: 1px solid #006F68;
+    border-radius: 45px;
+    text-align: center;
+    color: #006F68;
+}
+
+.answer {
+    width: 100%;
+    padding: 20px 17px;
+    color: #006F68;
+    text-align: center;
+    font-weight: 500;
+}
