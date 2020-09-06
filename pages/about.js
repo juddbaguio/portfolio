@@ -65,6 +65,7 @@ export default function About() {
                                         <p>-Node.js/Express</p>
                                         <p>-MongoDB</p>
                                         <p>-PostgreSQL</p>
+                                        <p>-Redux</p>
                                     </div>
                                 </div>
                             </motion.div>
